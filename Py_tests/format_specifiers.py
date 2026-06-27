@@ -17,8 +17,8 @@ print(f"|{a: .3e}|")#a:0.3e means that we want to print the value of "a" in scie
 #with 3 decimal places.
 a = -12345
 print(f"|{a:.3e}|")#a:0.3e means that we want to print the value of "a" in scientific notation 
-a = 10.7987
-b = 46.7534
-print(f"|{a:8.2f}| \n|{b:8.2f}|")#a:8.2f means that we want to print the value of "a" as a floating-point number
+a = 459.9999999 #number is rounded to 460.000 
+b = 46.95238945 #rounding doesnt happen here
+print(f"|{a:.3f}| \n|{b:.3f}|")#a:8.2f means that we want to print the value of "a" as a floating-point number
 #with a width of 8 characters and 2 decimal places.
 
